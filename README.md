@@ -104,8 +104,10 @@ You'll need two separate terminal/PowerShell windows open.
 * Type a command, for example: `show my files` or `list all files`.
 * The client will then contact the Llama model, then the server, and should display the list of files from the directory you configured in `tools.py`.
 
+```markdown
 ---
 ## Example Output
 
-```markdown
 ![Example Interaction Screenshot](Example.png)
+
+---
