@@ -32,7 +32,7 @@ A simple Python project that uses a local Llama LLM (via Ollama) to list files i
 
 4.  **Set up Ollama & Llama:**
     * Make sure Ollama is installed and running on your computer.
-    * Pull the Llama model you'll use (the client is likely set up for `llama3.2:3b` or a similar one):
+    * Pull the Llama model you'll use:
         ```bash
         ollama pull llama3.2:3b
         ```
