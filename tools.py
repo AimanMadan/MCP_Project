@@ -1,8 +1,10 @@
-import os 
+import os
+from typing import Dict, List 
 
 my_sounds = "F:/My Packs" # Choose the directory you wanna give the LLM access to
 
-# prints the files and folders in the main dir
-# def list_files(path:str) -> None:
-    # return {"items": [item for item in os.listdir(path)]}
+# returns in a dict the files and folders in the main dir
+def list_files(path: str) -> Dict[str, List[str]]:
+    return {"items": os.listdir(path)}
+
 
