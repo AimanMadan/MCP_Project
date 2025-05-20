@@ -104,9 +104,10 @@ You'll need two separate terminal/PowerShell windows open.
 * Type a command, for example: `show my files` or `list all files`.
 * The client will then contact the Llama model, then the server, and should display the list of files from the directory you configured in `tools.py`.
 
-```markdown
 ---
 ## Example Output
+
+Below is an example of the client script in action. After the user types a command (like "show my files"), the client communicates with the Llama model and then the MCP server to retrieve and display the list of files:
 
 ![Example Interaction Screenshot](Example.png)
 
