@@ -36,10 +36,9 @@ def list_files_implementation(path: str) -> Dict[str, Union[List[str], str]]:
         else:
             target_path = os.path.join(my_sounds, path)
         
-        # Normalize the path to resolve any redundant separators or "." components
+        # Normalize the path 
         target_path = os.path.normpath(target_path)
 
-        # Ensure the resolved path is still within the base directory
         if not target_path.startswith(os.path.normpath(my_sounds)):
             return {"error": "Invalid path: Attempt to access outside the base directory."}
 
