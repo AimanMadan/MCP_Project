@@ -1,5 +1,5 @@
 #mcp_client 
-# import ollama
+import ollama
 import requests
 import json 
 
